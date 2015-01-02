@@ -8,7 +8,7 @@ Create a REST API in Java platform with minimal installation and with minimal co
 ## Steps
   - Download or Clone the repo
   - Run `gradlew run`
-  - Access 'http://localhost:8080` from your browser.
+  - Access `http://localhost:8080` from your browser.
   - Java code
     - Add any REST API code to `src/main/java/com/springboot/quickstart/SampleController.java`
 	- Configurations for `Spring` and `web.xml` go into `src/main/java/com/springboot/quickstart/Application.java`
@@ -23,11 +23,13 @@ Create a REST API in Java platform with minimal installation and with minimal co
     - Uncomment the code - i.e. remove `/*` & `*/` comment characters.
     - Add the below lines into `build.gradle` file
       - Add `spring-boot` gradle plugin 
-	    ``` 
+	  
+	    ```
 		//Step-1: Spring boot plugin
         apply plugin: 'spring-boot'
         ```
 	  - Add dependencies for building the application.
+	  
 	    ```
 		//Scripts/Components to use during Build
 		buildscript {
@@ -41,6 +43,7 @@ Create a REST API in Java platform with minimal installation and with minimal co
 		}
 		```
 	  - Add `compile` time dependencies in `dependencies` - not the `dependencies` under `buildscript`
+	  
 	    ```
         //Step-3: Spring boot starter web
         compile("org.springframework.boot:spring-boot-starter-web")
@@ -50,5 +53,5 @@ Create a REST API in Java platform with minimal installation and with minimal co
   - Create a _MainClass_ for the kick starting the REST API.
     - Refer `src/main/java/com/springboot/quickstart/Application.java`
   - Run `gradlew run`
-  - Access 'http://localhost:8080` from your browser.
+  - Access `http://localhost:8080` from your browser.
 
