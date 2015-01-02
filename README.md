@@ -8,10 +8,10 @@ Create a REST API in Java platform with minimal installation and with minimal co
 ## Steps
   - Download or Clone the repo
   - Run `gradlew run`
-  - Access `http://localhost:8080` from your browser.
+  - Access [http://localhost:8080/](http://localhost:8080) from your browser.
   - Java code
-    - Add any REST API code to `./src/main/java/com/springboot/quickstart/SampleController.java`
-	- Configurations for `Spring` and `web.xml` go into `./src/main/java/com/springboot/quickstart/Application.java`
+    - Add any REST API code to [src/main/java/com/springboot/quickstart/SampleController.java](./src/main/java/com/springboot/quickstart/SampleController.java)
+	- Configurations for `Spring` and `web.xml` go into [src/main/java/com/springboot/quickstart/Application.java](./src/main/java/com/springboot/quickstart/Application.java)
   
 ## DIY
   - Install [Gradle](https://www.gradle.org/)
@@ -49,9 +49,12 @@ Create a REST API in Java platform with minimal installation and with minimal co
         compile("org.springframework.boot:spring-boot-starter-web")
 		```
   - Create a `Controller` for REST API endpoints
-    - Refer to the minimally needed code in `./src/main/java/com/springboot/quickstart/SampleController.java`
+    - Refer to the minimally needed code in [src/main/java/com/springboot/quickstart/SampleController.java](./src/main/java/com/springboot/quickstart/SampleController.java)
   - Create a _MainClass_ for the kick starting the REST API.
-    - Refer `./src/main/java/com/springboot/quickstart/Application.java`
+    - Refer [src/main/java/com/springboot/quickstart/Application.java](./src/main/java/com/springboot/quickstart/Application.java)
   - Run `gradlew run`
-  - Access `http://localhost:8080` from your browser.
+  - Access [http://localhost:8080/](http://localhost:8080) from your browser.
 
+
+## More DIY
+  - 
