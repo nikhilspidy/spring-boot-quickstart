@@ -61,3 +61,7 @@ Create a REST API in Java platform with minimal installation and with minimal co
     - Refer to the __log__ file for more REST endpoints when the _actuator_ is used
   - Try adding `compile("org.springframework.boot:spring-boot-starter-data-jpa")` and `compile("org.hsqldb:hsqldb:2.3.1")` and trial database code.
   - Try using `apply plugin: 'jetty'` and run `gradlew jettyRun` for executing the same in Jetty server
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/vedab/spring-boot-quickstart/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
