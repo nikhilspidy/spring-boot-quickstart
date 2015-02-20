@@ -1,5 +1,6 @@
 # Spring Boot quickstart application
 
+[![Build Status](https://travis-ci.org/vedab/spring-boot-quickstart.svg?branch=master)](https://travis-ci.org/vedab/spring-boot-quickstart)
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/vedab/spring-boot-quickstart/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
 ## Purpose
